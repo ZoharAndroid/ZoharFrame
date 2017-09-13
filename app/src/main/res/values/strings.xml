@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZoharFrame</string>
+    
+    <string name="introduce_login">登录/注册</string>>
+    <string name="introduce_experience">立即体验</string>
+
+    <string name="bottom_1">会话</string>
+    <string name="bottom_2">通讯录</string>
+    <string name="bottom_3">发现</string>
+    <string name="bottom_4">我的</string>
+</resources>
