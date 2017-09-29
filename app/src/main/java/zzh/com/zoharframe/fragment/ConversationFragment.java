@@ -15,6 +15,7 @@ import zzh.com.zoharframe.activity.conversation.ItemSlideMenuRecyclerActivity;
 import zzh.com.zoharframe.activity.conversation.RecyclerActivity;
 import zzh.com.zoharframe.activity.conversation.RecyclerGalleryActivity;
 import zzh.com.zoharframe.activity.conversation.SwipeRefreshLayoutActivity;
+import zzh.com.zoharframe.activity.conversation.ZxingCodeActivity;
 import zzh.com.zoharframe.adapter.ConversationRecyclerAdapter;
 import zzh.com.zoharframe.base.BaseFragment;
 import zzh.com.zoharframe.config.Constants;
@@ -32,9 +33,9 @@ public class ConversationFragment extends BaseFragment {
     private View conversationView;
     private RecyclerView mRcView;
     private String[] dataNameList = new String[]{"RecyclerView显示", "RecyclerView的Gallery效果", "CardView与RecyclerView结合使用", "RecyclerView的GridLayout/分割线", "沉浸式模式",
-            "SwipeRefresh上下拉刷新", "RecyclerView侧滑菜单"};
+            "SwipeRefresh上下拉刷新", "RecyclerView侧滑菜单", "Zxing二维码"};
     private Class<?>[] activities = new Class<?>[]{RecyclerActivity.class, RecyclerGalleryActivity.class, CardRecyclerActivity.class, GridRecyclerActivity.class, ImmersiveModeActivity.class,
-            SwipeRefreshLayoutActivity.class, ItemSlideMenuRecyclerActivity.class};
+            SwipeRefreshLayoutActivity.class, ItemSlideMenuRecyclerActivity.class, ZxingCodeActivity.class};
 
     public static ConversationFragment newInstance() {
         Bundle args = new Bundle();

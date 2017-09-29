@@ -6,6 +6,12 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- 判断网络的状态 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--相机的权限-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+       
 
     <application
         android:name=".application.ZoharApplication"
@@ -67,14 +73,28 @@
             android:windowSoftInputMode="adjustPan|adjustUnspecified" />
 
         <!-- 上下拉刷新 -->
-        <activity android:name=".activity.conversation.SwipeRefreshLayoutActivity"
+        <activity
+            android:name=".activity.conversation.SwipeRefreshLayoutActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan|adjustUnspecified"/>
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" />
 
         <!-- RecyclerView测滑菜单 -->
-        <activity android:name=".activity.conversation.ItemSlideMenuRecyclerActivity"
+        <activity
+            android:name=".activity.conversation.ItemSlideMenuRecyclerActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan|adjustUnspecified"/>
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" />
+
+        <!-- Zxing 二维码 -->
+        <activity
+            android:name=".activity.conversation.ZxingCodeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+
+        <!--生成二维码-->
+        <activity
+            android:name=".activity.conversation.CreateCodeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" />
 
     </application>
 

@@ -3,6 +3,8 @@ package zzh.com.zoharframe.application;
 import android.app.Application;
 import android.content.Context;
 
+import com.uuzuche.lib_zxing.activity.ZXingLibrary;
+
 /**
  * Created by zzh on 2017/7/24.
  *
@@ -25,6 +27,8 @@ public class ZoharApplication extends Application {
         super.onCreate();
         application = this;
         mContext = getApplicationContext();
+        //初始化Zxing二维码库
+        ZXingLibrary.initDisplayOpinion(this);
     }
 
 

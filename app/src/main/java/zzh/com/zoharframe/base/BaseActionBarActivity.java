@@ -48,8 +48,10 @@ public class BaseActionBarActivity extends BaseActivity implements View.OnClickL
     protected  void initView() {
         mTvActionBarTitle = (TextView) findViewById(R.id.tv_action_bar_title);
         mIvActionBarBack = (ImageView) findViewById(R.id.iv_action_bar_back);
-        mRlActionBarRoot = findViewById(R.id.rl_action_bar_root);
+        mRlActionBarRoot = (RelativeLayout) findViewById(R.id.rl_action_bar_root);
     }
+
+
 
 
     /**
