@@ -12,6 +12,7 @@ import zzh.com.zoharframe.activity.conversation.CardRecyclerActivity;
 import zzh.com.zoharframe.activity.conversation.GridRecyclerActivity;
 import zzh.com.zoharframe.activity.conversation.ImmersiveModeActivity;
 import zzh.com.zoharframe.activity.conversation.ItemSlideMenuRecyclerActivity;
+import zzh.com.zoharframe.activity.conversation.MyNiceDialogActivity;
 import zzh.com.zoharframe.activity.conversation.RecyclerActivity;
 import zzh.com.zoharframe.activity.conversation.RecyclerGalleryActivity;
 import zzh.com.zoharframe.activity.conversation.SwipeRefreshLayoutActivity;
@@ -33,9 +34,9 @@ public class ConversationFragment extends BaseFragment {
     private View conversationView;
     private RecyclerView mRcView;
     private String[] dataNameList = new String[]{"RecyclerView显示", "RecyclerView的Gallery效果", "CardView与RecyclerView结合使用", "RecyclerView的GridLayout/分割线", "沉浸式模式",
-            "SwipeRefresh上下拉刷新", "RecyclerView侧滑菜单", "Zxing二维码"};
+            "SwipeRefresh上下拉刷新", "RecyclerView侧滑菜单", "Zxing二维码","NiceDialog各种类型Dialog"};
     private Class<?>[] activities = new Class<?>[]{RecyclerActivity.class, RecyclerGalleryActivity.class, CardRecyclerActivity.class, GridRecyclerActivity.class, ImmersiveModeActivity.class,
-            SwipeRefreshLayoutActivity.class, ItemSlideMenuRecyclerActivity.class, ZxingCodeActivity.class};
+            SwipeRefreshLayoutActivity.class, ItemSlideMenuRecyclerActivity.class, ZxingCodeActivity.class,MyNiceDialogActivity.class};
 
     public static ConversationFragment newInstance() {
         Bundle args = new Bundle();

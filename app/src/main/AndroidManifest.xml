@@ -96,6 +96,11 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|adjustUnspecified" />
 
+        <!-- 各种类型对话框 -->
+        <activity android:name=".activity.conversation.MyNiceDialogActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified"/>
+
     </application>
 
 </manifest>

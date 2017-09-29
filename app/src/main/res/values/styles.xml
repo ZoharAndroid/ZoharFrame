@@ -19,4 +19,9 @@
         <item name="android:activityCloseExitAnimation">@anim/out_to_right</item>
     </style-->
 
+    <style name="UP_DOWN_ENTER_EXIT_ANIMATION" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/exit_anim</item>
+    </style>
+
 </resources>
