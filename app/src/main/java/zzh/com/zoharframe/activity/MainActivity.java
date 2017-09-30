@@ -121,7 +121,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
                 ft.show(addressFragment);
                 break;
             case 2:
-                ft.show(conversationFragment);
+                ft.show(findFragment);
                 break;
             case 3:
                 ft.show(myFragment);
