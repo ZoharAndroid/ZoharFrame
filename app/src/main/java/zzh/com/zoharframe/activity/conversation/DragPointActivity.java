@@ -12,6 +12,8 @@ import zzh.com.zoharframe.view.DragPoint;
 
 /**
  * Created by zohar on 2017/11/12.
+ *
+ * 自定义View 能够随手指移动的点
  */
 
 public class DragPointActivity extends BaseActionBarActivity {
@@ -23,8 +25,6 @@ public class DragPointActivity extends BaseActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drag_point);
         initActionBarTitle(getIntent().getStringExtra(Constants.INTENT_START_ACTIVITY));
-
-
     }
 
     @Override

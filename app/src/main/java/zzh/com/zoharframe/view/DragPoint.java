@@ -10,6 +10,8 @@ import android.view.View;
 
 /**
  * Created by zohar on 2017/11/12.
+ *
+ * 自定义View 点--随手指移动
  */
 
 public class DragPoint extends View {
