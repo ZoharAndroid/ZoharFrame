@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
+        android:padding="10dip"
+        android:id="@+id/btn_bind_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击使用mob自带的界面注册或绑定手机好"/>
+
+    <View
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:background="@color/color_red"/>
+
+
+</LinearLayout>

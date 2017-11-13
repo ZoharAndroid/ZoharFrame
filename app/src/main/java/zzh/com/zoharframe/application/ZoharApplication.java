@@ -3,6 +3,7 @@ package zzh.com.zoharframe.application;
 import android.app.Application;
 import android.content.Context;
 
+import com.mob.MobSDK;
 import com.uuzuche.lib_zxing.activity.ZXingLibrary;
 
 /**
@@ -29,6 +30,8 @@ public class ZoharApplication extends Application {
         mContext = getApplicationContext();
         //初始化Zxing二维码库
         ZXingLibrary.initDisplayOpinion(this);
+        // 通过代码注册你的AppKey和AppSecret
+        MobSDK.init(application, "2255dcd9fb000", "a793cb4deb8937fb3fa5f863e8bfcebe");
     }
 
 
